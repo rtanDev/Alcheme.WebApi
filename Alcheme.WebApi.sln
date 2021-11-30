@@ -1,0 +1,31 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 16
+VisualStudioVersion = 16.0.31911.196
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alcheme.WebApi", "Alcheme.Document.WebApi\Alcheme.WebApi.csproj", "{0B3442A6-1C80-450E-AA05-ADD5293652EF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Document.Core", "Document.Core\Document.Core.csproj", "{B7C9BC6C-277C-406E-A270-E3C6B7666030}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {CE1F0994-1564-4451-9C53-BD0B3B44B3F5}
+	EndGlobalSection
+EndGlobal
