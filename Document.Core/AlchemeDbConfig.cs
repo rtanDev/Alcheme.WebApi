@@ -8,9 +8,9 @@ namespace Document.Core
 {
     public class AlchemeDbConfig
     {
-        public string Database_Name { get; set; }
-        public string Documents_Collection_Name { get; set; }
-        public string Connection_String { get; set; }
+        public string ConnectionString { get; set; }
+        public string DatabaseName { get; set; }
+        public string DocumentsCollectionName { get; set; }
 
     }
 }

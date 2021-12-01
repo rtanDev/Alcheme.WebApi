@@ -9,3 +9,15 @@ R:\POC\Alcheme.Document.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.cspr
 R:\POC\Alcheme.Document.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.dll
 R:\POC\Alcheme.Document.WebApi\Document.Core\obj\Debug\net5.0\ref\Document.Core.dll
 R:\POC\Alcheme.Document.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.pdb
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\net5.0\Document.Core.deps.json
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\net5.0\Document.Core.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\net5.0\ref\Document.Core.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\net5.0\Document.Core.pdb
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.csproj.AssemblyReference.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.GeneratedMSBuildEditorConfig.editorconfig
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.AssemblyInfoInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.AssemblyInfo.cs
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.csproj.CoreCompileInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\ref\Document.Core.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.pdb

@@ -28,7 +28,7 @@ namespace Alcheme.WebApi
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddSingleton<IDbClient, DbClient>();
-            services.Configure<AlchemeDbConfig>(Configuration);
+            services.Configure<AlchemeDbConfig>(Configuration.GetSection("AlchemeDatabase"));
             services.AddTransient<IDocumentServices, DocumentServices>();
             services.AddControllers();
             services.AddSwaggerGen(c =>

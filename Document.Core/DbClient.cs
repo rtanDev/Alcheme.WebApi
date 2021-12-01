@@ -9,9 +9,9 @@ namespace Document.Core
         private readonly IMongoCollection<Document> _document;
         public DbClient(IOptions<AlchemeDbConfig> alchemeDbConfig)
         {
-            var client = new MongoClient(alchemeDbConfig.Value.Connection_String);
-            var database = client.GetDatabase(alchemeDbConfig.Value.Database_Name);
-            _document = database.GetCollection<Document>(alchemeDbConfig.Value.Documents_Collection_Name);
+            var client = new MongoClient(alchemeDbConfig.Value.ConnectionString);
+            var database = client.GetDatabase(alchemeDbConfig.Value.DatabaseName);
+            _document = database.GetCollection<Document>(alchemeDbConfig.Value.DocumentsCollectionName);
         }
         public IMongoCollection<Document> GetDocumentCollection() => _document;
     }

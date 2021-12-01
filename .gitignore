@@ -8,3 +8,8 @@ Alcheme.WebApi/obj/Debug/net5.0/Alcheme.WebApi.csproj.AssemblyReference.cache
 .vs/Alcheme.WebApi/DesignTimeBuild/.dtbcache.v2
 .vs/Alcheme.WebApi/v16/.suo
 *.v2
+.vs/Alcheme.WebApi/v16/.suo
+*.pdb
+Alcheme.WebApi/bin/Debug/net5.0/Alcheme.WebApi.dll
+Alcheme.WebApi/obj/Debug/net5.0/Alcheme.WebApi.csproj.AssemblyReference.cache
+*.cache
