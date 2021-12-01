@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "z0MX0bdWmKyiz3CrP5o1Ulhs3CTjmnk9XswrkqjZsD8IwWe/IfFcT6a2zLSymKy4roV6HH7kEruxatigIOEh1g==",
+  "dgSpecHash": "SziFJid6kGd1P3vJdWDib39k7YGnMhMHdyVObH6TCDmCjJxd2cizxaDxNnuCFuCOVaQrRKJWm4EfTTgF9Zaj1A==",
   "success": true,
-  "projectFilePath": "R:\\POC\\Alcheme.Document.WebApi\\Alcheme.Document.WebApi\\Alcheme.WebApi.csproj",
+  "projectFilePath": "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.WebApi\\Alcheme.WebApi.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RACAMI\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\microsoft.extensions.apidescription.server\\3.0.0\\microsoft.extensions.apidescription.server.3.0.0.nupkg.sha512",

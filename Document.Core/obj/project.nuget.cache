@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "aGehsI14exFM3OqF0yKGSDVWdwbyRDsrvJxMD4nlXIaVVYNnsO+6UX9QlGEZBT3Kn8eMcVhstdYmvf9re1Jyxg==",
+  "dgSpecHash": "AhF2Bo/Ro727mx1p2g9EpuRN8atxid6tgFbqDbbHAhLTyaXbRLFdm+YOa0FgXJ1Qo6oK4pDucs5ekDFVSMoLGw==",
   "success": true,
-  "projectFilePath": "R:\\POC\\Alcheme.Document.WebApi\\Document.Core\\Document.Core.csproj",
+  "projectFilePath": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Document.Core.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\RACAMI\\.nuget\\packages\\dnsclient\\1.4.0\\dnsclient.1.4.0.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\microsoft.extensions.dependencyinjection.abstractions\\6.0.0\\microsoft.extensions.dependencyinjection.abstractions.6.0.0.nupkg.sha512",

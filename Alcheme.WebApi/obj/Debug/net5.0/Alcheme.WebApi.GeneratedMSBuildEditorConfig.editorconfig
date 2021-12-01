@@ -7,4 +7,4 @@ build_property.PublishSingleFile =
 build_property.IncludeAllContentForSelfExtract = 
 build_property._SupportedPlatformList = Android,iOS,Linux,macOS,Windows
 build_property.RootNamespace = Alcheme.WebApi
-build_property.ProjectDir = R:\POC\Alcheme.Document.WebApi\Alcheme.Document.WebApi\
+build_property.ProjectDir = R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\

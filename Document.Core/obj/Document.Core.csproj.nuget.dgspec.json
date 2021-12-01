@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "R:\\POC\\Alcheme.Document.WebApi\\Document.Core\\Document.Core.csproj": {}
+    "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Document.Core.csproj": {}
   },
   "projects": {
-    "R:\\POC\\Alcheme.Document.WebApi\\Document.Core\\Document.Core.csproj": {
+    "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Document.Core.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "R:\\POC\\Alcheme.Document.WebApi\\Document.Core\\Document.Core.csproj",
+        "projectUniqueName": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Document.Core.csproj",
         "projectName": "Document.Core",
-        "projectPath": "R:\\POC\\Alcheme.Document.WebApi\\Document.Core\\Document.Core.csproj",
+        "projectPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Document.Core.csproj",
         "packagesPath": "C:\\Users\\RACAMI\\.nuget\\packages\\",
-        "outputPath": "R:\\POC\\Alcheme.Document.WebApi\\Document.Core\\obj\\",
+        "outputPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
