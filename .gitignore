@@ -5,3 +5,6 @@ Alcheme.WebApi/obj/Debug/net5.0/Alcheme.WebApi.assets.cache
 Alcheme.WebApi/obj/Debug/net5.0/Alcheme.WebApi.csproj.AssemblyReference.cache
 *.cache
 *.cache
+.vs/Alcheme.WebApi/DesignTimeBuild/.dtbcache.v2
+.vs/Alcheme.WebApi/v16/.suo
+*.v2
