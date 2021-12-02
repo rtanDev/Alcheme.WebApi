@@ -8,6 +8,8 @@ namespace Alcheme.WebApi.Controllers
 {
 
     [ApiController]
+    [ApiVersion("2021.3")]
+
     public class DocumentController : ControllerBase
     {
         private readonly IDocumentServices _documentServices;
@@ -22,7 +24,7 @@ namespace Alcheme.WebApi.Controllers
             return Ok(_documentServices.GetDocuments());
         }
 
-        [HttpGet(ApiRoutes.Documents.GetDocument)]
+        [HttpGet(ApiRoutes.Documents.GetDocument, Name="GetDocument")]
         public IActionResult GetDocument(string id)
         {
             return Ok(_documentServices.GetDocument(id));

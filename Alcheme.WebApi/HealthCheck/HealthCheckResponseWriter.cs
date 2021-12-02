@@ -12,6 +12,7 @@ namespace Alcheme.WebApi.HealthCheck
 {
     public class HealthCheckResponseWriter
     {
+        [System.Obsolete]
         public static Task WriteResponse(HttpContext context, HealthReport healthresult)
         {
             if (healthresult == null)

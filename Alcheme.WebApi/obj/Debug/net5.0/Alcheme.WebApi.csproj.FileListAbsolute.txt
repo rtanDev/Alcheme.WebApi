@@ -87,7 +87,6 @@ R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebAp
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebApi.AssemblyInfoInputs.cache
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebApi.AssemblyInfo.cs
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebApi.csproj.CoreCompileInputs.cache
-R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebApi.MvcApplicationPartsAssemblyInfo.cs
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebApi.MvcApplicationPartsAssemblyInfo.cache
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\staticwebassets\Alcheme.WebApi.StaticWebAssets.Manifest.cache
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\staticwebassets\Alcheme.WebApi.StaticWebAssets.xml
@@ -116,3 +115,7 @@ R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Setti
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\obj\Debug\net5.0\Alcheme.WebApi.MvcApplicationPartsAssemblyInfo.cs
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Microsoft.Extensions.Logging.Abstractions.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.AspNetCore.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Formatting.Compact.dll

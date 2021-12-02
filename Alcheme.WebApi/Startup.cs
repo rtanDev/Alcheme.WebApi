@@ -6,6 +6,7 @@ using Alcheme.Data.Common.Services;
 using Alcheme.WebApi.Contracts;
 using Alcheme.WebApi.HealthCheck;
 using Alcheme.WebApi.Installers;
+using Alcheme.WebApi.Models.Application;
 using Microsoft.AspNetCore.Builder;
 using Microsoft.AspNetCore.Diagnostics.HealthChecks;
 using Microsoft.AspNetCore.Hosting;
@@ -18,6 +19,8 @@ using Microsoft.Extensions.Hosting;
 using Microsoft.Extensions.Logging;
 using Microsoft.OpenApi.Models;
 using Newtonsoft.Json;
+using Newtonsoft.Json.Serialization;
+using Serilog;
 using System;
 using System.Collections.Generic;
 
@@ -42,10 +45,39 @@ namespace Alcheme.WebApi
         {
             services.InstallServicesInAssembly(Configuration);
 
+            // Add services to the collection. Don't build or return any IServiceProvider or the ConfigureContainer method won't get called.
+            services.AddOptions();
+            // better to have it before .AddMvc
+            services.AddCors(options =>
+            {
+                options.AddPolicy("AlchemeApiDevPolicy",
+                    builder =>
+                    {
+                        builder.SetIsOriginAllowed(x => _ = true)
+                                    .AllowAnyMethod()
+                                    .AllowAnyHeader()
+                                    .AllowCredentials();
+                    });
+
+                options.AddPolicy("AlchemeApiStagingPolicy",
+                    builder =>
+                    {
+                        // engagement here
+                    });
+
+                options.AddPolicy("AlchemeApiProdPolicy",
+                    builder =>
+                    {
+                        // engagement here
+                    });
+            });
+
+
             services.AddSingleton<IDbClient, DbClient>();
             services.Configure<AlchemeDbConfig>(Configuration.GetSection("AlchemeDatabase"));
             services.AddTransient<IDocumentServices, DocumentServices>();
             services.AddControllers();
+
             services.AddSwaggerGen(c =>
             {
                 c.SwaggerDoc("v1", new OpenApiInfo { Title = "Alcheme.WebApi", Version = "v1" });
@@ -54,7 +86,7 @@ namespace Alcheme.WebApi
             services.AddControllers().AddNewtonsoftJson(son =>
             {
                 son.SerializerSettings.ReferenceLoopHandling = ReferenceLoopHandling.Ignore;
-                son.SerializerSettings.ContractResolver = new SerializeContractResolver<ICollection<object>>();
+                son.SerializerSettings.ContractResolver = new DefaultContractResolver();
                 son.SerializerSettings.DateTimeZoneHandling = Newtonsoft.Json.DateTimeZoneHandling.Utc;
                 son.SerializerSettings.DateFormatString = "yyyy'-'MM'-'dd' 'HH':'mm':'ss.fff";
             });
@@ -80,16 +112,29 @@ namespace Alcheme.WebApi
         }
 
         // This method gets called by the runtime. Use this method to configure the HTTP request pipeline.
+        [Obsolete]
         public void Configure(IApplicationBuilder app, IWebHostEnvironment env)
         {
             if (env.IsDevelopment())
             {
                 app.UseDeveloperExceptionPage();
-                app.UseSwagger();
-                app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alcheme.WebApi v1"));
+                //app.UseSwagger();
+                //app.UseSwaggerUI(c => c.SwaggerEndpoint("/swagger/v1/swagger.json", "Alcheme.WebApi v1"));
             }
+            app.UseStaticFiles();
+            app.UseSerilogRequestLogging();
+            app.UseCors("AlchemeApiDevPolicy");
 
-            app.UseHttpsRedirection();
+            var swaggerOptions = new SwaggerOptions();
+
+            Configuration.GetSection(nameof(swaggerOptions)).Bind(swaggerOptions);
+            app.UseSwagger(option => { option.RouteTemplate = swaggerOptions.JsonRoute; });
+            app.UseSwaggerUI(c =>
+            {
+                c.SwaggerEndpoint(swaggerOptions.UiEndpoint, swaggerOptions.Description);
+                c.DisplayRequestDuration();
+            });
+
             app.UseRouting();
             app.UseAuthorization();
 

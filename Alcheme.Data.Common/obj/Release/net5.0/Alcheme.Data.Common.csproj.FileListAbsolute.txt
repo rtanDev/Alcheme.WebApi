@@ -1,0 +1,12 @@
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\bin\Release\net5.0\Alcheme.Data.Common.deps.json
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\bin\Release\net5.0\Alcheme.Data.Common.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\bin\Release\net5.0\ref\Alcheme.Data.Common.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\bin\Release\net5.0\Alcheme.Data.Common.pdb
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.csproj.AssemblyReference.cache
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.GeneratedMSBuildEditorConfig.editorconfig
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.AssemblyInfoInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.AssemblyInfo.cs
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.csproj.CoreCompileInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\ref\Alcheme.Data.Common.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.Data.Common\obj\Release\net5.0\Alcheme.Data.Common.pdb

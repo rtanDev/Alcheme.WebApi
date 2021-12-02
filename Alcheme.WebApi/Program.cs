@@ -43,7 +43,6 @@ namespace Alcheme.WebApi
                 .ConfigureWebHostDefaults(webBuilder =>
                 {
                     webBuilder
-                    .UseKestrel() // UseIISIntegration()
                     .UseStartup<Startup>();
                 });
     }
