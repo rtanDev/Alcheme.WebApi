@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "bLwA26FQJZRMMKj74vUL3zypFiW5+MvaXvlvEhGVJB4BAYmDfmadpVwlp4NELRFdd7KM6850098VLAGiFzyLmA==",
+  "dgSpecHash": "h27C7+15d7qDJfxvBLE533HLCUK6UHkogCMHqShvAX+Tnsqope0m56UMVPsUReEpZmrnhQd9r6TWMDJ4Nti6yQ==",
   "success": true,
   "projectFilePath": "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.WebApi\\Alcheme.WebApi.csproj",
   "expectedPackageFiles": [
@@ -38,6 +38,7 @@
     "C:\\Users\\RACAMI\\.nuget\\packages\\serilog.settings.configuration\\3.3.0\\serilog.settings.configuration.3.3.0.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\serilog.sinks.console\\4.0.1\\serilog.sinks.console.4.0.1.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\serilog.sinks.debug\\2.0.0\\serilog.sinks.debug.2.0.0.nupkg.sha512",
+    "C:\\Users\\RACAMI\\.nuget\\packages\\serilog.sinks.file\\5.0.0\\serilog.sinks.file.5.0.0.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\sharpcompress\\0.30.1\\sharpcompress.0.30.1.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\swashbuckle.aspnetcore\\5.6.3\\swashbuckle.aspnetcore.5.6.3.nupkg.sha512",
     "C:\\Users\\RACAMI\\.nuget\\packages\\swashbuckle.aspnetcore.swagger\\5.6.3\\swashbuckle.aspnetcore.swagger.5.6.3.nupkg.sha512",

@@ -142,6 +142,10 @@
               "target": "Package",
               "version": "[4.2.0, )"
             },
+            "Serilog.Extensions.Logging": {
+              "target": "Package",
+              "version": "[3.1.0, )"
+            },
             "Serilog.Settings.Configuration": {
               "target": "Package",
               "version": "[3.3.0, )"
@@ -153,6 +157,10 @@
             "Serilog.Sinks.Debug": {
               "target": "Package",
               "version": "[2.0.0, )"
+            },
+            "Serilog.Sinks.File": {
+              "target": "Package",
+              "version": "[5.0.0, )"
             },
             "Swashbuckle.AspNetCore": {
               "target": "Package",

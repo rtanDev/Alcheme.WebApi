@@ -115,3 +115,4 @@ R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Exten
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Settings.Configuration.dll
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Sinks.Console.dll
 R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Sinks.Debug.dll
+R:\Robert Workspace\Alcheme.WebApi\Alcheme.WebApi\bin\Debug\net5.0\Serilog.Sinks.File.dll
