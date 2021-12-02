@@ -13,3 +13,4 @@ Alcheme.WebApi/obj/Debug/net5.0/Alcheme.WebApi.csproj.AssemblyReference.cache
 Alcheme.WebApi/bin/Debug/net5.0/Alcheme.WebApi.dll
 Alcheme.WebApi/obj/Debug/net5.0/Alcheme.WebApi.csproj.AssemblyReference.cache
 *.cache
+.vs/Alcheme.WebApi/v16/.suo

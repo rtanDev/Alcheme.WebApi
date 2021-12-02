@@ -21,3 +21,6 @@ R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.
 R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.dll
 R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\ref\Document.Core.dll
 R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.pdb
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\net5.0\Alcheme.Data.Common.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\net5.0\Alcheme.Data.Common.pdb
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Document.Core.csproj.CopyComplete

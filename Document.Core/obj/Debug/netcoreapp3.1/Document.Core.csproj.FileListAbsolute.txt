@@ -1,0 +1,10 @@
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\netcoreapp3.1\Document.Core.deps.json
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\netcoreapp3.1\Document.Core.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\bin\Debug\netcoreapp3.1\Document.Core.pdb
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.csproj.AssemblyReference.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.GeneratedMSBuildEditorConfig.editorconfig
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.AssemblyInfoInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.AssemblyInfo.cs
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.csproj.CoreCompileInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.dll
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\netcoreapp3.1\Document.Core.pdb

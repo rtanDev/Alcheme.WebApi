@@ -8,6 +8,7 @@
     ".NETCoreApp,Version=v5.0": {
       "Document.Core/1.0.0": {
         "dependencies": {
+          "Alcheme.Data.Common": "1.0.0",
           "Microsoft.Extensions.Options": "6.0.0",
           "MongoDB.Bson": "2.14.0",
           "MongoDB.Driver": "2.14.0"
@@ -172,6 +173,11 @@
             "fileVersion": "6.0.21.52210"
           }
         }
+      },
+      "Alcheme.Data.Common/1.0.0": {
+        "runtime": {
+          "Alcheme.Data.Common.dll": {}
+        }
       }
     }
   },
@@ -257,6 +263,11 @@
       "sha512": "sha512-/iUeP3tq1S0XdNNoMz5C9twLSrM/TH+qElHkXWaPvuNOt+99G75NrV0OS2EqHx5wMN7popYjpc8oTjC1y16DLg==",
       "path": "system.runtime.compilerservices.unsafe/6.0.0",
       "hashPath": "system.runtime.compilerservices.unsafe.6.0.0.nupkg.sha512"
+    },
+    "Alcheme.Data.Common/1.0.0": {
+      "type": "project",
+      "serviceable": false,
+      "sha512": ""
     }
   }
 }

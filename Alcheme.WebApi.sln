@@ -3,9 +3,11 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31911.196
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alcheme.WebApi", "Alcheme.WebApi\Alcheme.WebApi.csproj", "{0B3442A6-1C80-450E-AA05-ADD5293652EF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Alcheme.WebApi", "Alcheme.WebApi\Alcheme.WebApi.csproj", "{0B3442A6-1C80-450E-AA05-ADD5293652EF}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Document.Core", "Document.Core\Document.Core.csproj", "{B7C9BC6C-277C-406E-A270-E3C6B7666030}"
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Common", "Common", "{E32332BC-5E8E-48A2-BA92-5F23A2099CFF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Alcheme.Data.Common", "Alcheme.Data.Common\Alcheme.Data.Common.csproj", "{19348F5B-20D3-487A-994C-017E2CFDD8E2}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -17,13 +19,16 @@ Global
 		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{0B3442A6-1C80-450E-AA05-ADD5293652EF}.Release|Any CPU.Build.0 = Release|Any CPU
-		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{B7C9BC6C-277C-406E-A270-E3C6B7666030}.Release|Any CPU.Build.0 = Release|Any CPU
+		{19348F5B-20D3-487A-994C-017E2CFDD8E2}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{19348F5B-20D3-487A-994C-017E2CFDD8E2}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{19348F5B-20D3-487A-994C-017E2CFDD8E2}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{19348F5B-20D3-487A-994C-017E2CFDD8E2}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{19348F5B-20D3-487A-994C-017E2CFDD8E2} = {E32332BC-5E8E-48A2-BA92-5F23A2099CFF}
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
 		SolutionGuid = {CE1F0994-1564-4451-9C53-BD0B3B44B3F5}

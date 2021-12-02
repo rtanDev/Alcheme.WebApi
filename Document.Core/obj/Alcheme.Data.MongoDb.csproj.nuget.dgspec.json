@@ -1,0 +1,150 @@
+{
+  "format": 1,
+  "restore": {
+    "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Alcheme.Data.MongoDb.csproj": {}
+  },
+  "projects": {
+    "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.Data.Common\\Alcheme.Data.Common.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.Data.Common\\Alcheme.Data.Common.csproj",
+        "projectName": "Alcheme.Data.Common",
+        "projectPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.Data.Common\\Alcheme.Data.Common.csproj",
+        "packagesPath": "C:\\Users\\RACAMI\\.nuget\\packages\\",
+        "outputPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.Data.Common\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RACAMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repository.racami.com/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {}
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    },
+    "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Alcheme.Data.MongoDb.csproj": {
+      "version": "1.0.0",
+      "restore": {
+        "projectUniqueName": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Alcheme.Data.MongoDb.csproj",
+        "projectName": "Alcheme.Data.MongoDb",
+        "projectPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\Alcheme.Data.MongoDb.csproj",
+        "packagesPath": "C:\\Users\\RACAMI\\.nuget\\packages\\",
+        "outputPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Document.Core\\obj\\",
+        "projectStyle": "PackageReference",
+        "fallbackFolders": [
+          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+        ],
+        "configFilePaths": [
+          "C:\\Users\\RACAMI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
+        ],
+        "originalTargetFrameworks": [
+          "net5.0"
+        ],
+        "sources": {
+          "C:\\Program Files (x86)\\Microsoft SDKs\\NuGetPackages\\": {},
+          "https://api.nuget.org/v3/index.json": {},
+          "https://repository.racami.com/repository/nuget-hosted/": {}
+        },
+        "frameworks": {
+          "net5.0": {
+            "targetAlias": "net5.0",
+            "projectReferences": {
+              "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.Data.Common\\Alcheme.Data.Common.csproj": {
+                "projectPath": "R:\\Robert Workspace\\Alcheme.WebApi\\Alcheme.Data.Common\\Alcheme.Data.Common.csproj"
+              }
+            }
+          }
+        },
+        "warningProperties": {
+          "warnAsError": [
+            "NU1605"
+          ]
+        }
+      },
+      "frameworks": {
+        "net5.0": {
+          "targetAlias": "net5.0",
+          "dependencies": {
+            "Microsoft.Extensions.Options": {
+              "target": "Package",
+              "version": "[6.0.0, )"
+            },
+            "MongoDB.Bson": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            },
+            "MongoDB.Driver": {
+              "target": "Package",
+              "version": "[2.14.0, )"
+            }
+          },
+          "imports": [
+            "net461",
+            "net462",
+            "net47",
+            "net471",
+            "net472",
+            "net48"
+          ],
+          "assetTargetFallback": true,
+          "warn": true,
+          "frameworkReferences": {
+            "Microsoft.NETCore.App": {
+              "privateAssets": "all"
+            }
+          },
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\5.0.403\\RuntimeIdentifierGraph.json"
+        }
+      }
+    }
+  }
+}

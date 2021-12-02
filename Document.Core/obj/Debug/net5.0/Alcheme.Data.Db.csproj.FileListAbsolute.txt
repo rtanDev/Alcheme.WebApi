@@ -1,0 +1,5 @@
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Alcheme.Data.Db.csproj.AssemblyReference.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Alcheme.Data.Db.GeneratedMSBuildEditorConfig.editorconfig
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Alcheme.Data.Db.AssemblyInfoInputs.cache
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Alcheme.Data.Db.AssemblyInfo.cs
+R:\Robert Workspace\Alcheme.WebApi\Document.Core\obj\Debug\net5.0\Alcheme.Data.Db.csproj.CoreCompileInputs.cache
